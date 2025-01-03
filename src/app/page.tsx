@@ -1,9 +1,17 @@
-import Header from "./components/header";
+
 import Footer from "./components/footer";
-import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Latest from "./components/latest";
 import Products from "./components/products";
+import Offer from "./components/Offers";
+import Unique from "./components/Unique";
+import TrendingProducts from "./components/TrendingProducts";
+import Discount from "./components/Discount";
+import TopCategories from "./components/TopCategories";
+import Newslater from "./components/Newslater";
+import BlogSection from "./components/BlogSection";
+import Header from "./components/Header";
+import Navbar from "./components/navbar";
 
 
 
@@ -15,10 +23,13 @@ const Page = () => {
             <Home />
             <Products /> {/* Corrected component name */}
             <Latest />
-            <main>
-                <h1>Welcome to Our E-commerce Site</h1>
-                <p>Your content goes here.</p>
-            </main>
+            <Offer />
+            <Unique />
+            <TrendingProducts />
+            <Discount />
+            <TopCategories />
+            <Newslater />
+            <BlogSection />
             <Footer />
         </div>
     );
